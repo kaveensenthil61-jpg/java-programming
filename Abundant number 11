@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+    Scanner k = new Scanner(System.in);
+        int b = k.nextInt();
+        int co = 0;
+        for(int i=1;i<b;i++){
+            if(b%i==0){
+                co = co+i;
+                
+            }}
+        if(co>b){
+            System.out.println("Abundant Number");}
+        else
+            System.out.println("Not Abundant Number");}
+            
+        }
